@@ -1,0 +1,35 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border: 3px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: rgb(172, 22, 22);
+    font-weight: bold;
+  }
+  td {
+    border: 3px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: rgb(246, 245, 248);
+  }
+  
+  .filter-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 600px) {
+    .filter-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  
+  
