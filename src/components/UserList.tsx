@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { User } from '../types';
 import useDebounce from '../useDebounce';
+import './UserList.css';
 
 interface UserListProps {
   users: User[];
